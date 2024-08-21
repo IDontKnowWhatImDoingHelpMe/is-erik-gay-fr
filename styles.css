@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds space between No and No buttons */
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.multicolor {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.reset {
+    background-color: gray;
+    color: white;
+}
+
+.main-title {
+    font-size: 2.5em; /* Adjusts the size of the title */
+    color: #333; /* Changes the color of the text */
+    text-align: center; /* Centers the title on the page */
+    margin-top: 20px; /* Adds space above the title */
+}
+
+
+.message {
+    font-size: 36px; /* Make the "Yay!" message large */
+    color: green;
+    margin-top: 10px;
+    height: 50px;
+}
